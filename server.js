@@ -1,7 +1,7 @@
 const express = require('express');
-const productDao = require('./main').productDao;
-const config = require('./config');
-const cartDao = require('./main').cartDao;
+const productDao = require('./utils/main').productDao;
+const config = require('./utils/config');
+const cartDao = require('./utils/main').cartDao;
 
 
 const app = express();

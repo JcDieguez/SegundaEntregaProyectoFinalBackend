@@ -12,7 +12,7 @@ const CartSchema = new mongoose.Schema({
   }
 });
 
-class MongoCartAdapter extends MongoContainer {
+class MongoCart extends MongoContainer {
   constructor() {
     super();
     this.Cart = mongoose.model('Cart', CartSchema);
